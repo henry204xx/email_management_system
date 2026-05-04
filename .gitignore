@@ -1,0 +1,6 @@
+# Executables
+bin/main.out
+
+# Object files
+*.o
+.vscode
