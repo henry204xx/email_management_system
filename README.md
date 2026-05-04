@@ -1,77 +1,59 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/OxmXQmdu)
-# IF2110 - Algoritma dan Struktur Data 2024
-> Tugas Besar - IF2110 Algoritma dan Struktur Data 2024
+# Email Management System
 
-## Kelompok H
-## Kelas K02
+## Description
+
+The **Email Management System** is a command-line based application designed to simulate core email functionalities. It enables users to manage accounts, compose and store drafts, send and reply to emails, and organize incoming messages. The system also includes notification handling and supports saving and loading data to maintain persistence between sessions.
+
+Built for UNIX-based environments, this project emphasizes modular design, structured data management, and efficient command processing.
+
+---
 
 ## Contributors
+
 <div align="center">
 
-| **NIM**  | **Nama**                  |
-|----------|---------------------------|
-| 13523034 | Rafizan Muhammad S        |
-| 13523070 | Sebastian Hung Yansen     |
-| 13523106 | Athian Nugraha Muarajuang |
-| 13523108 | Henry Filberto Shenelo    |
-| 13523110 | Andrew Isra Saputra Db    |
+| **Student ID** | **Name**                  |
+| -------------- | ------------------------- |
+| 13523034       | Rafizan Muhammad S        |
+| 13523070       | Sebastian Hung Yansen     |
+| 13523106       | Athian Nugraha Muarajuang |
+| 13523108       | Henry Filberto Shenelo    |
+| 13523110       | Andrew Isra Saputra Db    |
 
 </div>
 
-## Cara Menjalankan Program
-1. Jalankan program dengan sistem operasi berbasis UNIX atau gunakan WSL untuk Windows
-2. Buka terminal dan ganti direktori ke tempat folder aplikasi berada
+---
 
-    ```sh
-    cd /path/to/folder
-    ```
-3. Jalankan perintah
-    ```sh
-    make all
-    ```
-4. Jika berhasil, akan keluar output
-    ```sh
-    Selamat datang di PurryMail!
-    ```
+## How to Run the Program
 
-## Pembagian Tugas
+1. Use a UNIX-based operating system or Windows Subsystem for Linux (WSL) if you're on Windows
+2. Open a terminal and navigate to the project directory:
 
-| **No** | **Fitur**         | **NIM Penanggung Jawab** |
-|--------|-------------------|------------|
-| 1      | Inisialisasi      | 13523106|
-| 2      | Perintah          | 13523106 |
-| 3      | Pengguna          | 13523108      |
-| 4      | Draft Email       | 13523110    |
-| 5      | Inbox Utama       | 13523108 &  13523034    |
-| 6      | Balas Email       | 13523034 &  13523110  |
-| 7      | Status Kepentingan| 13523108 & 13523070     |
-| 8      | Notifikasi        | 13523070    |
-| 9      | Save & Load       | 13523034 & 13523106     |
+```sh
+cd /path/to/folder
+```
 
-## Daftar Fitur
+3. Run the following command:
 
-### Fitur Wajib
+```sh
+make all
+```
 
-| **No** | **Fitur**         | **Status** |
-|--------|-------------------|------------|
-| 1      | Inisialisasi      |   ✅      |
-| 2      | Perintah          | ✅      |
-| 3      | Pengguna          | ✅      |
-| 4      | Draft Email       | ✅      |
-| 5      | Inbox Utama       | ✅      |
-| 6      | Balas Email       | ✅     |
-| 7      | Status Kepentingan| ✅      |
-| 8      | Notifikasi        | ✅     |
-| 9      | Save & Load       | ✅     |
+4. If successful, the program will display:
 
-### Fitur Bonus
+```sh
+Welcome to PurryMail!
+```
 
-| **No** | **Fitur**         | **Status** |
-|--------|-------------------|------------|
-| 1      | Starred Email     | ❌     |
-| 2      | Mailing List      | ❌      |
-| 3      | Searching         | ❌      |
-| 4      | Enkripsi Pesan    | ❌      |
-| 5      | Jadwal Kesibukan  | ❌      |
-| 6      | Scheduling        | ❌      |
+---
 
+## Features
+
+* User account management
+* Command-line interface
+* Email drafting system
+* Inbox management
+* Email reply functionality
+* Priority/status marking
+* Notification system
+* Data persistence (save & load)
